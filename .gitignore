@@ -1,0 +1,54 @@
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pot
+*.pyc
+*.pyo
+*~
+.DS_Store
+Thumbs.db
+
+# Data files
+data/raw/*.json
+data/processed/*
+!data/processed/.gitkeep
+data/training_data.csv
+
+# Models
+models/saved/
+
+# Virtual Environment
+.env
+.env.local
+.env.*
+
+# Docker
+.dockerignore
+*.tar.gz
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+```
